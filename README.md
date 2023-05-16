@@ -1,5 +1,5 @@
 **Nom    :** Marouard Louis, Cocagne Oscar, Ravenel Martin, Lelievre David
-**Groupe :** Groupe ?
+**Groupe :** Groupe 16
 **Année  :** 2023
 
 # docker-sae203
@@ -8,7 +8,7 @@
 
 1. Construire l'image avec Dockerfile 
 
-
+       docker build -t <nom image> .
 
 2. Créer un conteneur docker avec l'image créée plus tôt
 
