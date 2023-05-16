@@ -14,5 +14,5 @@
 
 
        
-3. Accéder au site en entrant dans la barre d'adresse :
+3. Exécuter le programme java Client
 
