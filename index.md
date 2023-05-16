@@ -18,3 +18,7 @@ Affichage ci dessous:
 
 L'application affiche tous les messages pour que tout le monde puisse communiquer, si l'affichage de la discussion commence a être long alors une scroll bar apparaît pour pouvoir consulter les anciens messages.
 Tout disparaît lorsque la personne qui a ouvert le serveur décide de le fermer, dans ce cas la rien n'est enregistrer.
+
+### Les fichiers de projets
+
+Le projet possède 2 programe java, un server qui prend le nom de l'ordinateur et un port,  
