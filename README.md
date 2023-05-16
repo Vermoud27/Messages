@@ -6,7 +6,7 @@
 
 ## Comment installer le site ?
 
-1. Construire l'image via le Dockerfile (commande à exécuter dans le dossier où se trouve le dit Dockerfile)
+1. Construire l'image avec Dockerfile 
 
 
 
