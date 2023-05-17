@@ -85,7 +85,7 @@ public class Client2 {
                 } finally {
                     try {
                         socket.close();
-                        System.out.println("Deconnecté du serveur");
+                        System.out.println("Deconnecter du serveur");
                     } catch (IOException e) {
                         e.printStackTrace();
                     }

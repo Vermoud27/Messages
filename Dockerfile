@@ -4,10 +4,10 @@ FROM debian:latest
 #Instalation de java 
 RUN  apt-get update && apt-get install -y default-jdk
 
-COPY Server.java /app/Server.java
-COPY Client2.java /app/Client2.java
+COPY ./docker-sae203/Server/Server.java /app/
+COPY ./docker-sae203/Client/Client2.java /app/
 
-RUN javac /app/*.java
+RUN javac /app/Server.java
 
 CMD ["java", "-classpath", "/app" , "Server"]
 

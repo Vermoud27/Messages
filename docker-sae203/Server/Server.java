@@ -20,7 +20,7 @@ public class Server {
             
             while (true) {
                 Socket clientSocket = serverSocket.accept();
-                System.out.println("Nouveau Client Connecté: " + clientSocket.getInetAddress().getHostName());
+                System.out.println("Nouveau Client Connecter: " + clientSocket.getInetAddress().getHostName());
                 PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true);
                 clientWriters.add(writer);
                 new Thread(new ClientHandler(clientSocket)).start();
@@ -46,7 +46,7 @@ public class Server {
                     if (message == null) {
                         break;
                     }
-                    System.out.println("Message reçu: " + message);
+                    System.out.println("Message recu: " + message);
                     broadcast(message);
                 }
             } catch (IOException e) {
@@ -54,7 +54,7 @@ public class Server {
             } finally {
                 try {
                     clientSocket.close();
-                    System.out.println("Client déconnecté: " + clientSocket.getInetAddress().getHostName());
+                    System.out.println("Client deconnecter: " + clientSocket.getInetAddress().getHostName());
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
