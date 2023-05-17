@@ -4,7 +4,7 @@
 
 # docker-sae203
 
-## Comment installer le site ?
+## Utilisation de l'application
 
 1. Construire l'image avec Dockerfile 
 
@@ -12,7 +12,7 @@
 
 2. Créer un conteneur docker avec l'image créée plus tôt
 
-
+       docker run -d -p <port>:80 <nom image>
        
-3. Accéder au site en entrant dans la barre d'adresse :
+3. Accéder a l'application :
 
