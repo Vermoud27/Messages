@@ -4,9 +4,8 @@ FROM debian:latest
 #Instalation de java 
 RUN  apt-get update && apt-get install -y default-jdk
 
-COPY ./*.java /app/
-
-WORKDIR /app/
+COPY Server.java /app/Server.java
+COPY Client2.java /app/Client2.java
 
 RUN javac /app/*.java
 
