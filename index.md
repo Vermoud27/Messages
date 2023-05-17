@@ -21,4 +21,6 @@ Tout disparaît lorsque la personne qui a ouvert le serveur décide de le fermer
 
 ### Les fichiers de projets
 
-Le projet possède 2 programe java, un server qui prend le nom de l'ordinateur et un port,  
+Le projet possède 2 programe java, un server qui prend en parametre le nom de l'ordinateur et un port, et un client qui va etre possitionner dans un Thread pour poivoir avoir plusieurs clients et qui va contenir tous l'interfaces ihm.
+
+### Docker 
