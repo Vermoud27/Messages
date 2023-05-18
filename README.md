@@ -8,11 +8,17 @@
 
 1. Construire l'image avec Dockerfile 
 
-       docker build -t <nom image> .
+       docker build -t <nom image> ./docker-server/
 
 2. Créer un conteneur docker avec l'image créée plus tôt
 
-       docker run -d -p <port>:80 <nom image>
+       docker run -p <port>:8080 <nom image>
        
 3. Accéder a l'application :
+
+Ouvrir un deuxième Terminal puis tapper les commandes :
+	
+	cd src
+	
+	java Client2
 
