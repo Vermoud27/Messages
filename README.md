@@ -14,9 +14,7 @@
 
        docker run -p <port>:8080 <nom image>
        
-3. Accéder a l'application :
-
-    Ouvrir un deuxième Terminal puis tapper les commandes :
+3. Pour accéder a l'application, Ouvrir un deuxième Terminal puis tapper les commandes :
 	
 	cd src
 	
