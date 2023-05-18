@@ -16,7 +16,7 @@
        
 3. Accéder a l'application :
 
-Ouvrir un deuxième Terminal puis tapper les commandes :
+    Ouvrir un deuxième Terminal puis tapper les commandes :
 	
 	cd src
 	
