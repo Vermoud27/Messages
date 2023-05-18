@@ -10,7 +10,7 @@ import javax.swing.*;
 
 public class Client2 {
     private static final String HOST = "localhost";
-    private static final int PORT = 9000;
+    private static final int PORT = 8080;
 
     private Socket socket;
     private PrintWriter writer;

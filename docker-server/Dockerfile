@@ -6,12 +6,15 @@ RUN  apt-get update && apt-get install -y default-jdk
 
 WORKDIR /app
 
-COPY ./docker-sae203/Server/Server.java /app/
-COPY ./docker-sae203/Client/Client2.java /app/
+COPY ./Server/Server.java /app/
+COPY ./Client/Client2.java /app/
 
 RUN javac /app/Server.java
+RUN javac /app/Client2.java
+
+# Rendre le port 80 accessible au monde en dehors de ce conteneur
+EXPOSE 8080 
 
 CMD ["java", "-classpath", "/app" , "Server"]
 
-# Rendre le port 80 accessible au monde en dehors de ce conteneur
-EXPOSE 9000 
+
