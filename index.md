@@ -21,6 +21,8 @@ Tout disparaît lorsque la personne qui a ouvert le serveur décide de le fermer
 
 ### Les fichiers de projets
 
-Le projet possède 2 programe java, un server qui prend en parametre le nom de l'ordinateur et un port, et un client qui va etre possitionner dans un Thread pour poivoir avoir plusieurs clients et qui va contenir tous l'interfaces ihm.
+Le projet possède 2 programe java, un server qui prend en parametre le nom de l'ordinateur et un port, et un client qui va etre possitionner dans un Thread pour pouvoir avoir plusieurs clients et qui va contenir tous l'interfaces ihm.
 
-### Docker 
+### Le Docker
+
+Nous avons utilisés un dockerfile pour pouvoir lançer le serveur, mais le client lui doit etre éxécuté sur un autre terminal 
