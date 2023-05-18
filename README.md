@@ -16,7 +16,7 @@
        
 3. Pour accéder a l'application, Ouvrir un deuxième Terminal puis tapper les commandes :
 	
-	cd src
+       cd src
 	
-	java Client2
+       java Client2
 
